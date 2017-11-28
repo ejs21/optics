@@ -131,7 +131,7 @@ a {
 }
 
 #philosophy {
-  margin-right: 5%; 
+  margin-right: 5%;
 }
 
 .header {
@@ -146,4 +146,23 @@ a {
   padding-left: 1.25rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+/* Footer */
+
+footer {
+  margin-top: 5rem;
+  background-color: azure;
+}
+
+.copyright {
+  display: flex;
+  align-items: center; 
+  padding: 4rem 4rem;
+}
+
+.copyright img {
+  height: 1.5rem;
+  width: auto;
+  padding-right: 1rem;
 }
