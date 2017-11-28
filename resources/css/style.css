@@ -85,3 +85,65 @@ a {
 }
 
 /* Main container */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icons {
+  margin-top: 3rem;
+  display: flex;
+}
+
+.icon {
+  height: 8rem;
+  width: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#exams, #fittings {
+  margin-right: 6rem;
+}
+
+
+.icon img {
+  width: 3.5rem;
+  height: auto;
+}
+
+.icon .text {
+  text-align: center;
+}
+
+.information {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  width: 35%;
+}
+
+#philosophy {
+  margin-right: 5%; 
+}
+
+.header {
+  width: 10rem;
+  background-color: cadetblue;
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-weight: bold;
+  color: white;
+  padding-left: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
