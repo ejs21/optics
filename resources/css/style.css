@@ -27,7 +27,7 @@ html {
 }
 
 header {
-width: 100%;
+  width: 100%;
   background-color: cadetblue;
   color: white;
   margin-top: 1rem;
@@ -157,7 +157,7 @@ footer {
 
 .copyright {
   display: flex;
-  align-items: center; 
+  align-items: center;
   padding: 4rem 4rem;
 }
 
@@ -165,4 +165,110 @@ footer {
   height: 1.5rem;
   width: auto;
   padding-right: 1rem;
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 1000px) {
+
+  .container {
+    width: 100%;
+  }
+
+  .banner {
+    height: 22rem;
+  }
+
+  header {
+    margin-top: 0;
+  }
+
+  .subtext {
+    margin-top: 5rem;
+    position: static;
+  }  /* Dit werkt nog niet goed... */
+
+  .subtext p {
+    font-size: 1.33rem;
+    padding: 0.75rem 4rem;
+  }
+
+}
+
+@media only screen and (max-width: 570px) {
+
+  .banner {
+    height: 17rem;
+  }
+
+  .no-mobile {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .subtext {
+    margin-top: 9rem;
+  }  /* Deze moet nog op 100% width maar werkt niet */
+
+  .subtext p {
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .icons {
+    margin-top: 3.77rem;
+    margin-bottom: 3.77rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .icon {
+    margin: 1.54rem 0;
+    height: auto;
+  }
+
+  .icon .text {
+    margin-top: 1rem;
+  }
+
+  #exams, #fittings {
+    margin-right: 0;
+  }
+
+  .text, .description {
+    font-size: 0.77rem;
+  }
+
+  .information {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+.item {
+width: 100%;
+
+}
+  .item .header {
+    width: 100%;
+  }
+
+  .item .description {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+  #name p {
+    display: none;
+  }
 }
